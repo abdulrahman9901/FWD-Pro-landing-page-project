@@ -66,9 +66,10 @@ function activateSection(){
        for(section of sections){
            if(inViewPort(section)){
                // if it's not already activated  
-               if(!section.classList.contains('your-active-class'))
+               if(!section.classList.contains('your-active-class')){
                 //then activate it
                section.classList.add('your-active-class');
+               }
            }else{
                //if not in view port make sure it's not active
             section.classList.remove('your-active-class');
