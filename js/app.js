@@ -40,9 +40,17 @@ function createListItem (){
     }
 }
 
+
 function inViewPort(elem){
-    return(elem.getBoundingClientRect().top>=0);
-}
+    var scrollPosition = document.documentElement.scrollTop;
+
+     return(
+      scrollPosition >= elem.offsetTop - elem.offsetHeight * 0.25 &&
+      scrollPosition <
+      elem.offsetTop + elem.offsetHeight - elem.offsetHeight * 0.25
+     )
+};
+
 /**
  * End Helper Functions
  * Begin Main Functions
