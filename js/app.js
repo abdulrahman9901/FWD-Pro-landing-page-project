@@ -41,7 +41,7 @@ function createListItem (){
 }
 
 function inViewPort(elem){
-    return(elem.getBoundingClientRect()>=0);
+    return(elem.getBoundingClientRect().top>=0);
 }
 /**
  * End Helper Functions
