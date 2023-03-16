@@ -19,3 +19,6 @@ This may not sound like a lot, but there are a fair amount of moving pieces that
 - Also added the css style of scroll-behavior to be smooth
 - I have class="section" to all sections so i can get all of them with querySelectorAll()
 - Attached script link at bottom of the body of html file
+
+## Live link
+https://landing-page-xfno.onrender.com
